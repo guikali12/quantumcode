@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 99vw;
+    background-color: black;
+    font-weight: normal;
+    color: #00FEFB;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    height: 70%;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #00FEFB;
+    
+    font-family: "Moderustic";
+    font-weight: bold;
+}
+
+.neon {
+    font-size: 1.5em;
+    display: inline-block;
+    position: relative;
+    border: #00FEFB 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 .20em #FFF7,
+    0 0 .30em #00FEFB;
+    box-shadow: inset 0 0 .5em #00FEFB,
+                      0 0 .5em #00FEFB;
+
+}
+
+.neon::before {
+    content: "";
+    position: absolute;
+    top: 140%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00FEFB;
+    transform: 
+        perspective(0.2em)
+        rotateX(10deg)
+        scale(1.3, 0.40);
+    filter: blur(0.5em);
+    opacity: 0.6;
+    pointer-events: none;
+    transition: opacity 100ms linear;
+}
+
+.neon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00FEFB;
+    box-shadow: 0 0 2em #00FEFB;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 100ms linear;
+}
+
+.neon:hover::after {
+    opacity: 1;
+}
+
+.neon:hover, .neon:focus {
+    color: white;
+}
+
+.neon:hover::before {
+    opacity: 0.8;
+}

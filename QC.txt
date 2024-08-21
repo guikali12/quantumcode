@@ -1,0 +1,23 @@
+Conter no QuantumCode:
+CABEÇALHO
+título, imagens na esquerda e menu de navegação abaixo
+
+MENU
+1.Tecnologias do momento:
+- Quais as tecnologias que mais estão utilizando ?
+- IA´s mais completas do momento;
+- Como se tornar sua rede mais segura;
+
+2. Guias de Programação
+- Linguagens que mais pagam no mercado;
+- Tabela de salários para as linguagens;
+- Diferença de Front p/ Back end;
+- Livros recomendados para quem quer ingressar na programação;
+
+3. Desenvolvimento Profissional
+- Como deixar seu GitHub apresentável;
+- Dicas de Portifólio;
+- Exemplo de Portifólio;
+
+RODAPÉ
+Baixo, mas contendo uma pequena foto do criador do site, com número de contato e um &QuantumCode
