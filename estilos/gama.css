@@ -301,7 +301,7 @@ footer {
 
 @media (max-width: 768px) {
     
-    body {
+    body,html {
         width: 95vw;
     }
 
