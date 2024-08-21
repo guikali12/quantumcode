@@ -299,107 +299,111 @@ footer {
  }
 
 
-@media (max-width: 768px) {
-    
-    body,html {
-        width: 95vw;
+ @media (max-width: 768px) {
+    /* Ajustes gerais */
+    body, html {
+      width: 95vw;
     }
-
+  
+    /* Ajustes no header */
     header {
-        margin: 15px;
-        padding: 15px;
-        background-color: transparent;
+      margin: 15px;
+      padding: 15px;
+      background-color: transparent;
     }
-
+  
     header > h1 {
-        margin-left: -20px;
+      margin-left: -20px;
     }
-
+  
     header > img {
-        display: none;
+      display: none;
     }
-
+  
+    /* Ajustes no nav */
     nav {
-        display: none;
+      display: none;
     }
-
+  
+    /* Ajustes no main */
     main {
-        display: block;
-        margin: auto;
-        margin-top: -25px;
-        border-radius: 15px;
-        width: 400px;
-        height: 140%;
+      display: block;
+      margin: auto;
+      margin-top: -25px;
+      border-radius: 15px;
+      width: 400px;
+      height: 140%;
     }
-
+  
+    /* Ajustes no bloco bv */
     .bv {
-        display: block;
-        margin: auto;
-        text-align: center;
-        border: 1px solid black;
-        border-radius: 15px;
-        width: 370px;
-        height: 150px;
-        padding: 10px;
-        color: white;
-        background-color: #000;
-        box-shadow: 0px 0px 5px purple;
+      display: block;
+      margin: auto;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 15px;
+      width: 370px;
+      height: 150px;
+      padding: 10px;
+      color: white;
+      background-color: #000;
+      box-shadow: 0px 0px 5px purple;
     }
-    
+  
     .bv > h1 {
-        font-size: 2em;
+      font-size: 2em;
     }
-    
+  
     .bv > p {
-        text-decoration: underline;
+      text-decoration: underline;
     }
-    
+  
     .bv > p > strong {
-        font-size: 1.5em;
+      font-size: 1.5em;
     }
-    
-
+  
+    /* Ajustes nos títulos do main */
     main > h1 {
-        width: 400px;
-        margin-left: -5px;
+      width: 400px;
+      margin-left: -5px;
     }
-
+  
     main > h2 {
-        text-align: center;
-        border: 1px solid black;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding: 5px;
+      text-align: center;
+      border: 1px solid black;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 5px;
     }
-
+  
+    /* Ajustes no versus */
     .versus {
-        border: none;
-        visibility: hidden;
+      border: none;
+      visibility: hidden;
     }
-
+  
+    /* Ajustes nos asides */
     main > aside {
-        width: 250px;
-        height: 150px;
-
+      width: 250px;
+      height: 150px;
     }
-
-    main > aside.fe { 
-        margin-block: 1em;
-        margin:auto;
+  
+    main > aside.fe {
+      margin-block: 1em;
+      margin: auto;
     }
-    
+  
     main > aside.be {
-        margin: auto;
-        margin-block: 4em;
-        margin-bottom: 12px;
-      }
-    
-
-    footer {
-        width: 400px;
-        margin-top: 5px;
+      margin: auto;
+      margin-block: 4em;
+      margin-bottom: 12px;
     }
-
-}
+  
+    /* Ajustes no footer */
+    footer {
+      width: 400px;
+      margin-top: 5px;
+    }
+  }
