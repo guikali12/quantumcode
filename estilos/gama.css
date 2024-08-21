@@ -301,6 +301,10 @@ footer {
 
 @media (max-width: 768px) {
     
+    html, body {
+        overflow-x: auto;
+    }
+  
     body,html {
         width: 100%;
     }
