@@ -300,7 +300,10 @@ footer {
 
 
 @media (max-width: 768px) {
-
+    
+    body {
+        width: 95vw;
+    }
 
     header {
         margin: 15px;
