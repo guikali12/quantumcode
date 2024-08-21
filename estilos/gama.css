@@ -300,11 +300,6 @@ footer {
 
 
 @media (max-width: 768px) {
-    
-    html, body {
-        overflow-x: auto;
-    }
-
 
     header {
         margin: 15px;
@@ -329,7 +324,7 @@ footer {
         margin: auto;
         margin-top: -25px;
         border-radius: 15px;
-        width: 400px;
+        width: 350px;
         height: 140%;
     }
 
@@ -339,7 +334,7 @@ footer {
         text-align: center;
         border: 1px solid black;
         border-radius: 15px;
-        width: 370px;
+        width: 320px;
         height: 150px;
         padding: 10px;
         color: white;
@@ -361,7 +356,7 @@ footer {
     
 
     main > h1 {
-        width: 400px;
+        width: 350px;
         margin-left: -5px;
     }
 
